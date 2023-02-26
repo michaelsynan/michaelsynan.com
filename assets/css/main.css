@@ -20,8 +20,8 @@
       @apply bg-darkpurple-light;
     }
 
-    p a, .prose p a, .links a { @apply decoration-bluegreen underline decoration-1 underline-offset-4  transition }
-    p a:hover, .links a { @apply decoration-bluegreen-light underline decoration-2 underline-offset-4}
+    p a, .prose p a, .links a { @apply decoration-bluegreen underline decoration-1 underline-offset-4 transition }
+    p a:hover, .links a:hover { @apply decoration-bluegreen-light underline decoration-2 underline-offset-4}
 
     button { @apply no-underline }
   }
