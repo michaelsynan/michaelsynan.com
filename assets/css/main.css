@@ -1,0 +1,88 @@
+@tailwind base;
+
+@layer base {
+    html, body { @apply bg-gradient }
+    #__nuxt { @apply bg-gradient }
+    h1 {
+      @apply pb-2 text-4xl;
+    }
+    h2 {
+      @apply pt-2 pb-2 text-2xl;
+    }
+    h3 {
+      @apply pb-1 text-lg;
+    }
+    .prose h2 { @apply mt-10 }
+    .btn {
+      @apply inline px-4 py-2 mt-2 no-underline uppercase bg-darkpurple drop-shadow-sm;
+    }
+    .btn:hover { 
+      @apply bg-darkpurple-light;
+    }
+
+    p a, .prose p a { @apply decoration-bluegreen underline decoration-1 underline-offset-4 font-bold transition }
+    p a:hover { @apply decoration-bluegreen-light underline decoration-2 underline-offset-4 font-bold}
+
+    button { @apply no-underline }
+  }
+
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Work Sans";
+    src: url("./assets/fonts/WorkSans-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/WorkSans-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("./assets/fonts/WorkSans-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Wonder Unit Sans Medium";
+  src: url("./assets/fonts/WonderUnitSans-Medium.woff2")
+}
+
+nav a { text-decoration: none !important; }
+
+nav .router-link-exact-active, nav .router-link-active { @apply text-white bg-zinc-700; }
+
+.article-card { @apply mb-6 md:mb-10 bg-black }
+
+.publishdate {
+  @apply leading-5 align-top text-zinc-500;
+}
+
+.mainborder {
+  @apply border-stone-400 border-2 hover:border-stone-200 bg-zinc-900
+}
+
+.separator {
+  @apply bg-stone-100;
+  height: 2px;
+  margin: 1em 0 0.5em;
+}
+
+::selection {
+  background: #451a35; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #451a35; /* Gecko Browsers */
+}
+
+.bg-gradient { @apply  bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-slate-900 via-neutral-900  to-darkpurple }
+
+.prose h1 a, .prose h2 a, .prose h3 a { @apply no-underline }
+
+button { @apply !no-underline }
+
+#heading,  .about1, .about2, #projects, .blogs, .wholething {visibility: hidden;} 

@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxi generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^4.0.2",
+    "@nuxt/content": "^2.2.2",
+    "@tailwindcss/typography": "^0.5.8",
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^4.0.0",
+    "nuxt": "^3.1.1",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.7",
+    "@heroicons/vue": "^2.0.13",
+    "@pinia/nuxt": "^0.4.6",
+    "gsap": "^3.11.4",
+    "ipx": "1.0.0-2",
+    "ufo": "^1.0.1"
+  }
+}
