@@ -85,4 +85,4 @@ nav .router-link-exact-active, nav .router-link-active { @apply text-white bg-zi
 
 button { @apply !no-underline }
 
-#heading,  .about1, .about2, #projects, .blogs, .wholething {visibility: hidden;} 
+#heading, #heading2, .about1, .about2, #projects, .blogs, .wholething {visibility: hidden;} 
