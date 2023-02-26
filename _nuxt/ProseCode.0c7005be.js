@@ -1,1 +1,0 @@
-import{a as t}from"./entry.8330a62a.js";import{W as n,aC as o}from"./query.9163927d.js";const r=n({props:{code:{type:String,default:""},language:{type:String,default:null},filename:{type:String,default:null},highlights:{type:Array,default:()=>[]}}});function a(e,s,l,p,d,f){return o(e.$slots,"default")}const i=t(r,[["render",a]]);export{i as default};
