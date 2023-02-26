@@ -144,7 +144,7 @@ declare module '@nuxt/schema' {
 
       defaultLocale: any,
 
-      integrity: number,
+      integrity: any,
 
       experimental: {
          stripQueryParameters: boolean,

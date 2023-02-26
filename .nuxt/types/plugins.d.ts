@@ -12,8 +12,7 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.1.1/node_modules/nuxt/dist/pages/runtime/plugins/router").default> &
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.1.1/node_modules/nuxt/dist/pages/runtime/plugins/prefetch.client").default> &
   InjectionType<typeof import("../../node_modules/.pnpm/@nuxt+content@2.3.0/node_modules/@nuxt/content/dist/runtime/plugins/documentDriven").default> &
-  InjectionType<typeof import("../../node_modules/.pnpm/@nuxt+content@2.3.0/node_modules/@nuxt/content/dist/runtime/plugins/ws").default> &
-  InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.1.1/node_modules/nuxt/dist/app/plugins/payload.client").default>
+  InjectionType<typeof import("../../node_modules/.pnpm/@nuxt+content@2.3.0/node_modules/@nuxt/content/dist/runtime/plugins/ws").default>
 
 declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }
