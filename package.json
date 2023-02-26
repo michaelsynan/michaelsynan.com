@@ -3,7 +3,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxi generate",
+    "generate": "nuxi generate && touch .output/public/.nojekyll && echo 'michaelsynan.com' > .output/public/CNAME",
     "preview": "nuxt preview"
   },
   "devDependencies": {
