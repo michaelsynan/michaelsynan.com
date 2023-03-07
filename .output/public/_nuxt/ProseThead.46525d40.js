@@ -1,1 +1,0 @@
-import{a}from"./entry.054b587f.js";import{af as r,ag as o,aC as t}from"./query.43076284.js";const s={};function n(e,c){return r(),o("thead",null,[t(e.$slots,"default")])}const d=a(s,[["render",n]]);export{d as default};

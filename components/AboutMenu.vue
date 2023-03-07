@@ -1,9 +1,9 @@
 <template>
   <div class="relative text-stone-500">
     <div>
-      <button @click="toggleMenu2" :class="{ 'text-stone-200' : isOpen2 }" class="px-1">Get in Contact {{ isOpen2 ? '-' : '+' }}</button>
+      <button @click="toggleMenu2" :class="{ 'text-stone-200' : isOpen2 }" class="px-0 md:px-1">Contact {{ isOpen2 ? '-' : '+' }}</button>
       <span class="px-2 ">|</span>   
-      <button @click="toggleMenu1" :class="{ 'text-stone-200' : isOpen1 }" class="px-1">Certifications {{ isOpen1 ? '-' : '+' }}</button>
+      <button @click="toggleMenu1" :class="{ 'text-stone-200' : isOpen1 }" class="px-0 md:px-1">Certifications {{ isOpen1 ? '-' : '+' }}</button>
       <span class="px-2">|</span>  
   
       <nuxt-link to="/projects">Projects</nuxt-link>
