@@ -3318,7 +3318,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _bjkYv4, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _bjkYv4, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _bjkYv4, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1678207406924.json', handler: _tapgc8, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1678214968310.json', handler: _tapgc8, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _W7O3LR, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _W7O3LR, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _W7O3LR, lazy: false, middleware: false, method: "get" },

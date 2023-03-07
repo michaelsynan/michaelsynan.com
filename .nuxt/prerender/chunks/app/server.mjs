@@ -847,50 +847,60 @@ const node_modules__pnpm_nuxt_643_1_1_node_modules_nuxt_dist_head_runtime_lib_vu
     };
   }
 });
-const __nuxt_page_meta$7 = {};
-const __nuxt_page_meta$6 = { layout: "default" };
-const __nuxt_page_meta$5 = {};
-const __nuxt_page_meta$4 = { layout: "default" };
+const __nuxt_page_meta$8 = {};
+const __nuxt_page_meta$7 = { layout: "default" };
+const __nuxt_page_meta$6 = {};
+const __nuxt_page_meta$5 = { layout: "default" };
+const __nuxt_page_meta$4 = {};
 const __nuxt_page_meta$3 = { layout: "default" };
 const __nuxt_page_meta$2 = { layout: "index" };
 const __nuxt_page_meta$1 = {};
 const __nuxt_page_meta = { layout: "default" };
 const _routes = [
   {
-    name: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.name) ?? "slug",
-    path: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.path) ?? "/:slug(.*)*",
+    name: (__nuxt_page_meta$8 == null ? void 0 : __nuxt_page_meta$8.name) ?? "slug",
+    path: (__nuxt_page_meta$8 == null ? void 0 : __nuxt_page_meta$8.path) ?? "/:slug(.*)*",
+    children: [],
+    meta: __nuxt_page_meta$8,
+    alias: (__nuxt_page_meta$8 == null ? void 0 : __nuxt_page_meta$8.alias) || [],
+    redirect: (__nuxt_page_meta$8 == null ? void 0 : __nuxt_page_meta$8.redirect) || void 0,
+    component: () => import('./_nuxt/_...slug_-5a471347.mjs').then((m) => m.default || m)
+  },
+  {
+    name: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.name) ?? "about",
+    path: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.path) ?? "/about",
     children: [],
     meta: __nuxt_page_meta$7,
     alias: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.alias) || [],
     redirect: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.redirect) || void 0,
-    component: () => import('./_nuxt/_...slug_-5a471347.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/about-4c4d6762.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.name) ?? "about",
-    path: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.path) ?? "/about",
+    name: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.name) ?? "about2",
+    path: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.path) ?? "/about2",
     children: [],
     meta: __nuxt_page_meta$6,
     alias: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.alias) || [],
     redirect: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.redirect) || void 0,
-    component: () => import('./_nuxt/about-4c4d6762.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/about2-98c30718.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.name) ?? "about2",
-    path: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.path) ?? "/about2",
+    name: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.name) ?? "index",
+    path: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.path) ?? "/",
     children: [],
     meta: __nuxt_page_meta$5,
     alias: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.alias) || [],
     redirect: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.redirect) || void 0,
-    component: () => import('./_nuxt/about2-98c30718.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-8440bd50.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.name) ?? "index",
-    path: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.path) ?? "/",
+    name: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.name) ?? "index.vue",
+    path: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.path) ?? "/index.vue",
     children: [],
     meta: __nuxt_page_meta$4,
     alias: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.alias) || [],
     redirect: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect) || void 0,
-    component: () => import('./_nuxt/index-e0c64a4c.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index.vue-eeecf51e.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.name) ?? "projects",

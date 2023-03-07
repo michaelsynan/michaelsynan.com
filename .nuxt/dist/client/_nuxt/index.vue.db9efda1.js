@@ -1,0 +1,1 @@
+import{a as e}from"./entry.f2db234c.js";import{af as o,ag as r}from"./query.43076284.js";const a={};function c(n,t){return o(),r("div",null," Page: foo ")}const _=e(a,[["render",c]]);export{_ as default};
