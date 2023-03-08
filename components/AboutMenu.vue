@@ -1,5 +1,5 @@
 <template>
-<div class="relative text-stone-500 overflow-auto">
+<div class="relative text-stone-500 overflow-auto mb-40 md:mb-0">
   <div class="text-bluegreen-light opacity-50 font-mono text-sm">menu <span class="translate-y-1 -translate-x-2 inline-block">&cudarrr;</span></div>
   <div>
     <button @click="toggleMenu2" :class="{ 'text-stone-200' : isOpen2 }" class=" hover:text-stone-200 transition ease-in-out">Contact <span class="font-mono">{{ isOpen2 ? '-' : '+' }} </span></button>
