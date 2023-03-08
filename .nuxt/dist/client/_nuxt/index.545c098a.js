@@ -1,0 +1,1 @@
+import{a as e}from"./entry.65cb762f.js";import{af as s,ag as a,ah as t}from"./query.677335dd.js";const o={},c={class:"container w-1/2 pt-20 mx-auto text-slate-200"},n=t("h1",{class:"text-white-700"},"All tags page",-1),r=t("p",null,"Whatever...",-1),_=[n,r];function i(l,d){return s(),a("div",c,_)}const p=e(o,[["render",i]]);export{p as default};

@@ -5,11 +5,11 @@
         <div class="about1 relative col-span-3 pb-1/1 md:col-span-1 drop-shadow-sm">
           <img class="absolute top-0 object-cover object-center w-full h-full" src="/michael_synan.jpg" />
         </div>
-        <div class="px-4 about2 leading-snug md:leading-normal col-span-2  align-middle sm:col-span-3 xs:col-span-3 md:col-span-2 ">  
+        <div class="tracking-wide about2 leading-snug md:leading-normal col-span-2 align-middle sm:col-span-3 xs:col-span-3 md:col-span-2 ">  
               <p class="pb-3 text-2g md:text-2xl">
                 I'm Michael, a front-end developer, long-time Linux user, philosophy nerd, and open-source advocate. My Master's degree in Urban Affairs and Bachelor's degree in Psychology have helped me understand the human side of technology. 
               </p>
-              <span class="mt-2  text-2g md:text-2xl pb-2 mb-4 inline-block w-full">Let's collaborate.</span>
+              <span class="mt-2 md:text-2xl pb-2 mb-4 inline-block w-full">Let's collaborate.</span>
               <AboutMenu />
         </div>   
       </div> 
