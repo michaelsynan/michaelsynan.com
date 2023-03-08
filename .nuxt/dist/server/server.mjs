@@ -1344,7 +1344,7 @@ const components = {
     /* webpackChunkName: "components/content-list" */
   ).then((c) => c.default || c)),
   ContentNavigation: defineAsyncComponent(() => import(
-    "./_nuxt/ContentNavigation-6661f20c.js"
+    "./_nuxt/ContentNavigation-5038e759.js"
     /* webpackChunkName: "components/content-navigation" */
   ).then((c) => c.default || c)),
   ContentQuery: defineAsyncComponent(() => import(
@@ -1525,7 +1525,7 @@ const _routes = [
     meta: __nuxt_page_meta$5,
     alias: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.alias) || [],
     redirect: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.redirect) || void 0,
-    component: () => import("./_nuxt/about-07f35377.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/about-82932a2f.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.name) ?? "index",

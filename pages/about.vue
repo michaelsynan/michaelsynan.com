@@ -10,11 +10,7 @@
               I'm Michael, a front-end developer, long-time Linux user, philosophy nerd, and open-source advocate. My Master's degree in Urban Affairs and Bachelor's degree in Psychology have helped me understand the human side of technology. 
             </p>
             <span class="mt-2  text-2g md:text-2xl pb-2 mb-4 inline-block w-full">Let's collaborate.</span>
-
-
-<AboutMenu />
-
-
+            <AboutMenu />
       </div>   
     </div> 
   </div>
@@ -25,8 +21,6 @@
 import { Icon } from '@iconify/vue';
 import gsap from 'gsap';
 import { onMounted } from "vue";
-
-
 
 definePageMeta({    layout: 'default'  })
 const runtimeConfig = useRuntimeConfig()

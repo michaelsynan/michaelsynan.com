@@ -11,11 +11,11 @@
   </div>
   <nav>
   <div>
-    <ul ref="menuItems2" v-if="isOpen2" :class="{ 'opacity-0': !isOpen2, 'text-stone-200' : isOpen2 }" class="pt-2 pb-20">
+    <ul ref="menuItems2" v-if="isOpen2" :class="{ 'opacity-0': !isOpen2, 'text-stone-200' : isOpen2 }" class="pt-2 pb-40 md:pb-0">
       <li><a href="https://www.linkedin.com/in/hellomichaelsynan/" target="_blank" class="hover:text-bluegreen-light">LinkedIn &nearr;</a></li>
       <li><a href="https://airtable.com/shrTD2l45wB1qa6Pb" target="_blank" class="hover:text-bluegreen-light">Message Me &nearr;</a></li>
     </ul>
-    <ul ref="menuItems1" v-if="isOpen1" :class="{ 'opacity-0': !isOpen1, 'text-stone-200' : isOpen1 }" class="pt-2 pb-20">
+    <ul ref="menuItems1" v-if="isOpen1" :class="{ 'opacity-0': !isOpen1, 'text-stone-200' : isOpen1 }" class="pt-2 pb-40 md:pb-0">
 
       <li><a href="https://skillshop.credential.net/e5d43232-e49e-46f4-91fb-6eec91fbc730?record_view=true" target="_blank" class="hover:text-bluegreen-light">Google Ad Search &nearr;</a></li>
       <li><a href="https://skillshop.credential.net/012ab1f5-95f1-4791-815e-af1b6dd3c8ca?record_view=true" target="_blank" class="hover:text-bluegreen-light">Google Analytics &nearr;</a></li>
