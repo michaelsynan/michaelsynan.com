@@ -7,11 +7,9 @@
         </div>
         <div class="px-4 about2 leading-snug md:leading-normal col-span-2  align-middle sm:col-span-3 xs:col-span-3 md:col-span-2 ">  
             <p class="pb-3 text-2g md:text-2xl">
-              I'm Michael, front-end developer, long-time Linux user, 
-              philosophy nerd, and open source advocate. My Master's in Urban Affairs and Public Policy and BA in Psychology
-              help me to understand the human side of technology. 
+              I'm Michael, a front-end developer, long-time Linux user, philosophy nerd, and open-source advocate. My Master's degree in Urban Affairs and Bachelor's degree in Psychology have helped me understand the human side of technology. 
             </p>
-            <span class="mt-2  text-2g md:text-2xl pb-2 mb-4 inline-block w-full">Let's work together.</span>
+            <span class="mt-2  text-2g md:text-2xl pb-2 mb-4 inline-block w-full">Let's collaborate.</span>
 
 
 <AboutMenu />
