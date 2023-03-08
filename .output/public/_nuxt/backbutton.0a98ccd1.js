@@ -1,0 +1,1 @@
+import{af as o,ag as e,ak as n,aj as a,ah as s,am as c}from"./query.677335dd.js";import{a as _}from"./entry.38289ea8.js";const r={},i={class:"mt-8"},l=s("button",{class:"transition-colors btn"}," Back ",-1);function m(d,f){const t=c;return o(),e("div",i,[n(t,{to:"/blog",class:"no-underline"},{default:a(()=>[l]),_:1})])}const x=_(r,[["render",m]]);export{x as default};

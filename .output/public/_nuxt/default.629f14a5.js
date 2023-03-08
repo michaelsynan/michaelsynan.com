@@ -1,1 +1,0 @@
-import t from"./page.5f1bf82c.js";import{a}from"./entry.388cd545.js";import{af as n,ag as r,ak as c,aC as s}from"./query.677335dd.js";const _={},f={class:"bg-gradient flex flex-col min-h-screen h-max"};function l(e,m){const o=t;return n(),r("div",f,[c(o),s(e.$slots,"default")])}const u=a(_,[["render",l]]);export{u as default};

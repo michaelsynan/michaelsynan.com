@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col flex-grow text-white place-content-start md:place-content-center pb-40">
     <div class="mx-auto w-5/6 sm:w-2/3 md:w-2/3 lg:1/2">
-      <div class="grid grid-cols-3 gap-3 pb-0 pt-16 md:pt-8">
+      <div class="grid grid-cols-3 gap-4 md:gap-10 pb-0 pt-16 md:pt-8">
         <div class="about1 relative col-span-3 pb-1/1 md:col-span-1 drop-shadow-sm">
           <img class="absolute top-0 object-cover object-center w-full h-full" src="/michael_synan.jpg" />
         </div>
