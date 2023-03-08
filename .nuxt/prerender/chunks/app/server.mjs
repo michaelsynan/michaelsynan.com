@@ -880,7 +880,7 @@ const _routes = [
     meta: __nuxt_page_meta$4,
     alias: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.alias) || [],
     redirect: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect) || void 0,
-    component: () => import('./_nuxt/index-05ed6d9f.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-6a0b8619.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.name) ?? "projects",
