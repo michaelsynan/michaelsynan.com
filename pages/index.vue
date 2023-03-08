@@ -3,7 +3,7 @@
     <div class="w-4/5 md:w-2/3 mx-auto">
         <div class="grid grid-cols-5">
           <div class="col-span-5 p-5 md:p-20 -mb-5">
-            <h1 id="heading" class="pb-10 tracking-wide text-8xl font-display xs:text-3xl sm:text-4xl md:text-6xl lg:text-8xl max-h-screen bg-gradient-to-tr from-gray-100 via-zinc-100 to-rose-100 text-transparent bg-clip-text select-none">
+            <h1 id="heading" class="pb-10 tracking-wide text-8xl font-display xs:text-3xl sm:text-4xl md:text-6xl lg:text-8xl max-h-screen   text-stone-100 select-none">
             <span class="letter">Front</span>
             <span class="letter">-</span>
             <span class="letter">End </span>

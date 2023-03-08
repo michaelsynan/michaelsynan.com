@@ -1,1 +1,0 @@
-import t from"./AboutMenu.0ad38739.js";import{a as r}from"./entry.f2db234c.js";import{af as c,ai as e}from"./query.43076284.js";import"./index.10963069.js";/* empty css                      */const n={};function a(_,m){const o=t;return c(),e(o)}const d=r(n,[["render",a]]);export{d as default};

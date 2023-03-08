@@ -4,7 +4,7 @@ export default {
   "components/content/tagsearch.vue": () => import('./_nuxt/tagsearch-styles.68ce8bbf.mjs').then(interopDefault),
   "node_modules/.pnpm/@nuxt+content@2.3.0/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue": () => import('./_nuxt/ProseCode-styles.93005832.mjs').then(interopDefault),
   "layouts/index.vue": () => import('./_nuxt/index-styles.d3136923.mjs').then(interopDefault),
-  "pages/index.vue": () => import('./_nuxt/index-styles.5b66501d.mjs').then(interopDefault),
+  "pages/index.vue": () => import('./_nuxt/index-styles.5b834e89.mjs').then(interopDefault),
   "pages/projects.vue": () => import('./_nuxt/projects-styles.6a034994.mjs').then(interopDefault),
   "pages/thank-you.vue": () => import('./_nuxt/thank-you-styles.cf69c50b.mjs').then(interopDefault),
   "app.vue": () => import('./_nuxt/app-styles.239996c9.mjs').then(interopDefault),
