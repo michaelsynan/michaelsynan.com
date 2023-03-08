@@ -1,5 +1,5 @@
 <template>
-<div class="relative text-stone-500 overflow-auto mb-40 md:mb-0">
+<div class=" text-stone-500 overflow-auto absolute">
   <div class="text-bluegreen-light opacity-50 font-mono text-sm">menu <span class="translate-y-1 -translate-x-2 inline-block">&cudarrr;</span></div>
   <div>
     <button @click="toggleMenu2" :class="{ 'text-stone-200' : isOpen2 }" class=" hover:text-stone-200 transition ease-in-out">Contact <span class="font-mono">{{ isOpen2 ? '-' : '+' }} </span></button>
@@ -9,12 +9,12 @@
     <nuxt-link to="/projects" class=" hover:text-stone-200 transition ease-in-out">Projects</nuxt-link>
   </div>
   <nav>
-  <div>
-    <ul ref="menuItems2" v-if="isOpen2" :class="{ 'opacity-0': !isOpen2, 'text-stone-200' : isOpen2 }" class="pt-2 pb-40 md:pb-0">
+  <div id="aboutmenu">
+    <ul ref="menuItems2" v-if="isOpen2" :class="{ 'opacity-0': !isOpen2, 'text-stone-200' : isOpen2 }" class="pt-2 ">
       <li><a href="https://www.linkedin.com/in/hellomichaelsynan/" target="_blank" class="hover:text-bluegreen-light">LinkedIn &nearr;</a></li>
       <li><a href="https://airtable.com/shrTD2l45wB1qa6Pb" target="_blank" class="hover:text-bluegreen-light">Message Me &nearr;</a></li>
     </ul>
-    <ul ref="menuItems1" v-if="isOpen1" :class="{ 'opacity-0': !isOpen1, 'text-stone-200' : isOpen1 }" class="pt-2 pb-40 md:pb-0">
+    <ul ref="menuItems1" v-if="isOpen1" :class="{ 'opacity-0': !isOpen1, 'text-stone-200' : isOpen1 }" class="pt-2 ">
       <li><a href="https://skillshop.credential.net/e5d43232-e49e-46f4-91fb-6eec91fbc730?record_view=true" target="_blank" class="hover:text-bluegreen-light">Google Ad Search &nearr;</a></li>
       <li><a href="https://skillshop.credential.net/012ab1f5-95f1-4791-815e-af1b6dd3c8ca?record_view=true" target="_blank" class="hover:text-bluegreen-light">Google Analytics &nearr;</a></li>
       <li><a href="https://www.coursera.org/account/accomplishments/certificate/2RSPD7AUSRZP" target="_blank" class="hover:text-bluegreen-light">Google UX Design &nearr;</a></li>
@@ -24,11 +24,6 @@
 </div>
 </template>
 
-<style>
-.opacity-0 {
-  opacity: 0;
-}
-</style>
 
 <script setup>
 import { gsap } from 'gsap'
@@ -79,17 +74,19 @@ if (isOpen1.value) {
 }
 }
 
+onMounted(() => {
 if (typeof window !== 'undefined') {
 watchEffect(() => {
   if (isOpen1.value || isOpen2.value) {
-    document.body.style.overflow = 'hidden'
+    document.getElementById('aboutmenu').style.overflow = 'hidden'
   } else {
-    document.body.style.overflow = 'auto'
+    document.getElementById('aboutmenu').style.overflow = 'auto'
   }
 })
 }
+})
 </script>
-<style>
+<style scoped>
 .opacity-0 {
   opacity: 0;
 }

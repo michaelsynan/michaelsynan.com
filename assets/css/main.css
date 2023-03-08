@@ -1,8 +1,7 @@
 @tailwind base;
 
 @layer base {
-    html, body { @apply bg-gradient }
-    #__nuxt { @apply bg-gradient }
+
     h1 {
       @apply pb-2 text-4xl;
     }

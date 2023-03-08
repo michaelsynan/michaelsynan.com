@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient">
+  <div>
     <navbar />
     <NuxtLayout/>
   </div>

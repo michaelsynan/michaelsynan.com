@@ -1344,7 +1344,7 @@ const components = {
     /* webpackChunkName: "components/content-list" */
   ).then((c) => c.default || c)),
   ContentNavigation: defineAsyncComponent(() => import(
-    "./_nuxt/ContentNavigation-6b084bc6.js"
+    "./_nuxt/ContentNavigation-436d96c9.js"
     /* webpackChunkName: "components/content-navigation" */
   ).then((c) => c.default || c)),
   ContentQuery: defineAsyncComponent(() => import(
@@ -1525,7 +1525,7 @@ const _routes = [
     meta: __nuxt_page_meta$5,
     alias: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.alias) || [],
     redirect: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.redirect) || void 0,
-    component: () => import("./_nuxt/about-e982ba6a.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/about-1ab469c1.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.name) ?? "index",
@@ -2067,8 +2067,8 @@ const fetchContentNavigation = async (queryBuilder) => {
   return data;
 };
 const layouts = {
-  default: () => import("./_nuxt/default-b44d9681.js").then((m) => m.default || m),
-  index: () => import("./_nuxt/index-295abfc0.js").then((m) => m.default || m),
+  default: () => import("./_nuxt/default-8e1c759a.js").then((m) => m.default || m),
+  index: () => import("./_nuxt/index-21d9ccbe.js").then((m) => m.default || m),
   post: () => import("./_nuxt/post-3ad03787.js").then((m) => m.default || m)
 };
 const node_modules__pnpm__64nuxt_43content_642_3_0_node_modules__64nuxt_content_dist_runtime_plugins_documentDriven_mjs_ufsFHGJbCq = defineNuxtPlugin((nuxt) => {
@@ -2764,7 +2764,7 @@ const _sfc_main$1 = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_navbar = _sfc_main$2;
   const _component_NuxtLayout = __nuxt_component_1;
-  _push(`<div${ssrRenderAttrs(mergeProps({ class: "bg-gradient" }, _attrs))}>`);
+  _push(`<div${ssrRenderAttrs(_attrs)}>`);
   _push(ssrRenderComponent(_component_navbar, null, null, _parent));
   _push(ssrRenderComponent(_component_NuxtLayout, null, null, _parent));
   _push(`</div>`);
