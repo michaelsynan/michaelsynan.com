@@ -1344,7 +1344,7 @@ const components = {
     /* webpackChunkName: "components/content-list" */
   ).then((c) => c.default || c)),
   ContentNavigation: defineAsyncComponent(() => import(
-    "./_nuxt/ContentNavigation-da691c38.js"
+    "./_nuxt/ContentNavigation-6661f20c.js"
     /* webpackChunkName: "components/content-navigation" */
   ).then((c) => c.default || c)),
   ContentQuery: defineAsyncComponent(() => import(
@@ -1526,7 +1526,7 @@ const _routes = [
     meta: __nuxt_page_meta$6,
     alias: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.alias) || [],
     redirect: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.redirect) || void 0,
-    component: () => import("./_nuxt/about-f36891dd.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/about-ab211e45.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.name) ?? "index",
@@ -1544,7 +1544,7 @@ const _routes = [
     meta: __nuxt_page_meta$4,
     alias: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.alias) || [],
     redirect: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect) || void 0,
-    component: () => import("./_nuxt/index2-8aba8cfa.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index2-2253221d.js").then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.name) ?? "projects",
