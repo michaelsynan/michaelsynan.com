@@ -1,24 +1,25 @@
 <template>
 <div class="relative text-stone-500">
+  <div class="text-bluegreen-light opacity-50 font-mono">menu <span class="translate-y-1 -translate-x-2 inline-block">&cudarrr;</span></div>
   <div>
-    <button @click="toggleMenu2" :class="{ 'text-stone-200' : isOpen2 }" class="px-0 md:px-1  hover:text-stone-200 transition ease-in-out">Contact {{ isOpen2 ? '-' : '+' }}</button>
-    <span class="px-2 ">|</span>   
-    <button @click="toggleMenu1" :class="{ 'text-stone-200' : isOpen1 }" class="px-0 md:px-1  hover:text-stone-200 transition ease-in-out">Certifications {{ isOpen1 ? '-' : '+' }}</button>
-    <span class="px-2">|</span>  
+    <button @click="toggleMenu2" :class="{ 'text-stone-200' : isOpen2 }" class=" hover:text-stone-200 transition ease-in-out">Contact <span class="font-mono">{{ isOpen2 ? '-' : '+' }} </span></button>
+    <span class="px-2.5 ">|</span>   
+    <button @click="toggleMenu1" :class="{ 'text-stone-200' : isOpen1 }" class=" hover:text-stone-200 transition ease-in-out">Certifications <span class="font-mono"> {{ isOpen1 ? '-' : '+' }} </span></button>
+    <span class="px-2.5">|</span>  
 
     <nuxt-link to="/projects" class=" hover:text-stone-200 transition ease-in-out">Projects</nuxt-link>
   </div>
   <nav>
   <div>
-    <ul ref="menuItems2" v-if="isOpen2" :class="{ 'opacity-0': !isOpen2, 'text-stone-200' : isOpen2 }" class="pt-2 ">
-      <li><a href="https://www.linkedin.com/in/hellomichaelsynan/" target="_blank" class="hover:text-bluegreen-light">&#8259; LinkedIn &nearr;</a></li>
-      <li><a href="https://airtable.com/shrTD2l45wB1qa6Pb" target="_blank" class="hover:text-bluegreen-light">&#8259; Message Me &nearr;</a></li>
+    <ul ref="menuItems2" v-if="isOpen2" :class="{ 'opacity-0': !isOpen2, 'text-stone-200' : isOpen2 }" class="pt-2 pb-20">
+      <li><a href="https://www.linkedin.com/in/hellomichaelsynan/" target="_blank" class="hover:text-bluegreen-light">LinkedIn &nearr;</a></li>
+      <li><a href="https://airtable.com/shrTD2l45wB1qa6Pb" target="_blank" class="hover:text-bluegreen-light">Message Me &nearr;</a></li>
     </ul>
-    <ul ref="menuItems1" v-if="isOpen1" :class="{ 'opacity-0': !isOpen1, 'text-stone-200' : isOpen1 }" class="pt-2">
+    <ul ref="menuItems1" v-if="isOpen1" :class="{ 'opacity-0': !isOpen1, 'text-stone-200' : isOpen1 }" class="pt-2 pb-20">
 
-      <li><a href="https://skillshop.credential.net/e5d43232-e49e-46f4-91fb-6eec91fbc730?record_view=true" target="_blank" class="hover:text-bluegreen-light">&#8259; Google Ad Search &nearr;</a></li>
-      <li><a href="https://skillshop.credential.net/012ab1f5-95f1-4791-815e-af1b6dd3c8ca?record_view=true" target="_blank" class="hover:text-bluegreen-light">&#8259; Google Analytics &nearr;</a></li>
-      <li><a href="https://www.coursera.org/account/accomplishments/certificate/2RSPD7AUSRZP" target="_blank" class="hover:text-bluegreen-light">&#8259; Google UX Design &nearr;</a></li>
+      <li><a href="https://skillshop.credential.net/e5d43232-e49e-46f4-91fb-6eec91fbc730?record_view=true" target="_blank" class="hover:text-bluegreen-light">Google Ad Search &nearr;</a></li>
+      <li><a href="https://skillshop.credential.net/012ab1f5-95f1-4791-815e-af1b6dd3c8ca?record_view=true" target="_blank" class="hover:text-bluegreen-light">Google Analytics &nearr;</a></li>
+      <li><a href="https://www.coursera.org/account/accomplishments/certificate/2RSPD7AUSRZP" target="_blank" class="hover:text-bluegreen-light">Google UX Design &nearr;</a></li>
     </ul>
   </div>
   </nav>
